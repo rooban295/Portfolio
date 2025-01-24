@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Skills = () => {
   return (
-    <div id='skills' className='mt-28'>
+    <div id='skills' className=''>
       <h1 className='text-center text-4xl tracking-wide  bg-gradient-to-r from-violet-800 to-cyan-600 bg-clip-text text-transparent'>Skills</h1>
 
       <div className='flex  gap-5 mt-10 justify-evenly flex-wrap px-10'>

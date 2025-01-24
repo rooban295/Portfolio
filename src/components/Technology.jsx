@@ -7,7 +7,7 @@ import { SiSpringboot } from 'react-icons/si'
 
 export const Technology = () => {
   return (
-    <div id='technology' className='hidden max-md:block mt-[200px] sm:mt-[250px]'>
+    <div id='technology' className='hidden max-md:block mt-[200px] sm:mt-[250px] mb-14'>
     <h1 className="text-center text-4xl my-10 mb-16 bg-gradient-to-r from-violet-800 to-cyan-600 bg-clip-text text-transparent tracking-wide">Technology</h1>
     <div className='flex flex-row flex-wrap  justify-evenly items-center gap-4 px-10'>
                     <RiReactjsLine className='mobile-img text-cyan-600 '/>
