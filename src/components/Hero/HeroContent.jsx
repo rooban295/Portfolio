@@ -29,10 +29,10 @@ export const HeroContent = () => {
   const[hi,setHi]=useState(emoj[randomNum])
 
   return (
-    <div className='px-10 flex flex-row justify-between items-center z-[20] w-full gap-2'>
+    <div className='px-3 sm:px-10 flex flex-row justify-between items-center z-[20] w-full gap-2'>
 
         <div className='flex flex-col justify-center gap-5 w-full h-full text-start  p-4 '>
-            <h2 className='tracking-wide text-[2rem] md:text-5xl lg:text-[3.5rem] font-bold bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text'><span>Hi <span className='text-yellow-500'>{hi}</span>, I'm</span> <br /> Thison Rooban J</h2>
+            <h2 className='tracking-wide text-[1.8rem] md:text-5xl lg:text-[3.5rem] font-bold bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text'><span>Hi <span className='text-yellow-500'>{hi}</span>, I'm</span> <br /> Thison Rooban J</h2>
             <span className='text-md ml-2'>A Passionate Java Full Stack Developer</span>
             <p className='ml-2 text-justify text-sm md:text-md'>I am a passive full stack developer with a knack fot crafting robust and scable web application .With 5 year</p>
             <a href="/resume.pdf" target='_blank' rel='noopener noreferrer' download className='Welcome-box px-4 py-2 border border-[#7042f88b] opacity-[0.9 text-[#b49bff] text-[15px]'>Download Resume</a>
@@ -49,7 +49,7 @@ export const HeroContent = () => {
             <FaJava className='main-img  text-white top-[200px] left-[225px] lg:h-[45px] lg:w-[45px] lg:top-[250px] lg:left-[260px] xl:top-[400px] xl:left-[450px] xl:h-[80px] xl:w-[80px]'/>
             <SiSpringboot className='main-img  text-green-800 top-[235px] left-[82px] lg:h-[45px] lg:w-[45px] lg:top-[305px] lg:left-[62px] xl:top-[470px] xl:left-[125px] xl:h-[80px] xl:w-[80px]'/>
             <FaGithub className='main-img  text-white top-[260px] left-[140px] lg:h-[45px] lg:w-[45px] lg:top-[330px] lg:left-[170px] xl:top-[535px] xl:left-[305px] xl:h-[80px] xl:w-[80px]'/>
-            <GrMysql className='main-img  text-blue-600 top-[60px] right-[50px] lg:h-[45px] lg:w-[45px] lg:top-[60px] lg:right-[70px] xl:top-[120px] xl:right-[100px] xl:h-[80px] xl:w-[80px]'/>
+            <GrMysql className='main-img  text-blue-600 top-[60px] right-[50px] lg:h-[45px] lg:w-[45px] lg:top-[90px] lg:left-[330px] xl:top-[140px] xl:left-[545px] xl:h-[80px] xl:w-[80px]'/>
         </div>
     </div>
   )

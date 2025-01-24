@@ -24,7 +24,7 @@ export const Navbar = () => {
   return (
     <div className={`w-full h-[65px] flex items-center justify-center py-2 fixed top-0 bg-[#03001417] z-50 px-15 ${navScroll?`nav-scroll`:""}`}>  
       <nav className="bg-transparent">
-        <ul className=" flex items-center gap-14 border border-slate-600 p-3 rounded-full backdrop-blur-md ">
+        <ul className=" flex items-center gap-7 sm:gap-14 md:gap-14 border border-slate-600 p-3 rounded-full backdrop-blur-md ">
           <li><Link to="home" smooth={true} duration={100} offset={-200}>Home</Link></li>
           <li><Link to="skills" smooth={true} duration={100} offset={-100}>Skills</Link></li>
           <li><Link to="project" smooth={true} duration={100} offset={-200}>Project</Link></li>
