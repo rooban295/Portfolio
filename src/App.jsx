@@ -4,7 +4,6 @@ import{Skills} from './components/Skills'
 import { Contact } from './components/Contact'
 import { Technology } from './components/Technology'
 import { Project } from './components/Project'
-import Footer from './components/Footer'
 function App() {
 
   return (
