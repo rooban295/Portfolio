@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Jersey+15&family=Playwrite+AU+SA:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.Welcome-box {
+    isolation: isolate;
+    overflow: hidden;
+    align-items: center;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    border-radius: 32px;
+    box-shadow: inset 0 -7px 11px #a48fff1f;
+    display: flex;
+    position: relative;
+    width: -moz-max-content;
+    width: max-content;
+    transition: 0.45s cubic-bezier(0.6, 0.6, 0, 1) box-shadow;
+  }
+
+  .skills-Welcome-box {
+    isolation: isolate;
+    overflow: hidden;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    box-shadow: inset 0 -7px 11px #a48fff1f;
+    transition: 0.45s cubic-bezier(0.6, 0.6, 0, 1) box-shadow;
+  }
+
+  .text-gradient{
+    color:transparent;
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-gradient-from: #5b21b6 var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(91 33 182 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: #0891b2 var(--tw-gradient-to-position);
+    background-clip: text;
+  }
+  .main-img{
+    position: absolute;
+    height:40px;
+    width:40px;
+    --tw-bg-opacity:0.3;
+    border-radius: 1rem;
+    padding:0.25rem;
+    background-color: rgb(17 24 39 / var(--tw-bg-opacity, 1)) 
+  }
+
+  .nav-scroll{
+    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    
+    --tw-shadow-color: #2A0E61;
+    --tw-shadow: var(--tw-shadow-colored);
+
+    --tw-backdrop-blur: blur(12px);
+    -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+    backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  }
+
+  .mobile-img{
+    height:40px;
+    width:40px;
+    padding:0.25rem;
+  }
+
+
+  
+@layer base{
+    html{
+        font-family:"Poppins","sans-serif";
+        color:#ffffff;
+        scroll-behavior: smooth;
+    }
+
+    body{
+        background-color:#030014;
+    }
+}
+
+
+@layer components{
+
+    
+}
