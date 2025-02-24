@@ -34,7 +34,7 @@ export const HeroContent = () => {
 
         <div className='flex flex-col justify-center gap-6 w-full h-full text-start  p-4 '>
             <h2 className='leading-10 tracking-wide text-[1.8rem] md:text-4xl lg:text-5xl xl:text-7xl font-bold bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text'><span>Hi <span className='text-yellow-500'>{hi}</span>, I'm</span> <br/><span className="mt-4 block">Thison Rooban J</span></h2>
-            <span className='text-md ml-2'>A Passionate Java Full Stack Developer</span>
+            <span className='text-md ml-2 text-violet-500'> Aspiring Java Full Stack Software Developer</span>
             <a href={cv} target='_blank' rel='noopener noreferrer' className='Welcome-box px-4 py-2 border border-[#7042f88b] opacity-[0.9 text-[#b49bff] text-[15px]'>Download Resume</a>
         </div>
 
